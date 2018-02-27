@@ -1,0 +1,15 @@
+#breadcrumb {
+  display: flex;
+  margin: 16px 0;
+}
+
+#breadcrumb > p {
+  padding-right: 12px;
+  font-size: 14px;
+  color: #999999;
+  margin: 0;
+}
+
+#breadcrumb > p:last-child {
+  color: #666666;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ml-job-test",
+  "version": "0.0.1",
+  "description": "Technical review to apply for a job",
+  "scripts": {
+    "client": "cd client && react-scripts start",
+    "server": "NODE_ENV=production node server/index.js",
+    "server:dev": "NODE_ENV=development nodemon server/index.js",
+    "serve": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
+    "serve:dev": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server:dev\""
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.15.1",
+    "redux-logger": "^3.0.6"
+  },
+  "author": "Luis Larghi",
+  "license": "ISC"
+}

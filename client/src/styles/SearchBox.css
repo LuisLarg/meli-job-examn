@@ -1,0 +1,45 @@
+#search-box {
+  background-color: #ffe600;
+  padding: 10px 0;
+}
+
+#search-box > form {
+  display: flex;
+  justify-content: center;
+  padding: 0 130px;
+}
+
+#search-box > form .logo {
+  background-image: url("../assets/logo.png");
+  background-repeat: no-repeat;
+  background-size: 53px 36px;
+  width: 53px;
+  height: 36px;
+  display: inline-block;
+  margin-right: 20px;
+  text-indent: -999px;
+}
+
+#search-box > form .icon {
+  background-image: url("../assets/search.png");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin: 8px 10px;
+}
+
+#search-box > form > button {
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+#search-box > form > input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  text-indent: 12px;
+}
