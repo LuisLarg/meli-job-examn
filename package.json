@@ -6,8 +6,10 @@
     "client": "cd client && react-scripts start",
     "server": "NODE_ENV=production node server/index.js",
     "server:dev": "NODE_ENV=development nodemon server/index.js",
-    "serve": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
-    "serve:dev": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server:dev\""
+    "serve":
+      "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
+    "serve:dev":
+      "concurrently --kill-others-on-fail \"npm run client\" \"npm run server:dev\""
   },
   "dependencies": {
     "express": "^4.16.2",
@@ -25,6 +27,7 @@
     "nodemon": "^1.15.1",
     "redux-logger": "^3.0.6"
   },
+  "repository": "github:Xertz/meli-job-examn",
   "author": "Luis Larghi",
   "license": "ISC"
 }
